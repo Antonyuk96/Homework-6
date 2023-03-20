@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Borrower extends Person 
 {    
-    private ArrayList<Loan> borrowedBooks;          //Книги,которые на данный моментвзяты
+    private ArrayList<Loan> borrowedBooks;          //Книги,которые на данный момент взяты
     private ArrayList<HoldRequest> onHoldBooks;  //Те, на которые есть резерв
 
     
